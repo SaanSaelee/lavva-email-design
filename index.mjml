@@ -32,7 +32,7 @@
         <mj-section mj-class="light-green">
             <mj-column>
                 <mj-text font-size="24px" line-height="31.2px" padding="9px 18px">
-                    Celebrate the holiday weekend with Lavva! Use code FRESH15  at checkout for 15% off your order.
+                    Celebrate the holiday weekend with Lavva! Use code <a href="https://www.google.com" style="color: #006853; font-weight: bold;">FRESH15</a>  at checkout for <a href="https://www.google.com" style="color: #006853; font-weight: bold;">15% off</a> your order.
                 </mj-text>
                 <mj-button href="https://www.google.com" padding="9px 18px">
                     SHOP NOW
@@ -50,7 +50,7 @@
         <!-- Fresh recipes section -->
         <mj-section padding="9px 18px 0">
             <mj-column padding-bottom="14px">
-                <mj-text font-size="24px" line-height="31.2px" >
+                <mj-text font-size="24px" font-weight="bold" line-height="31.2px" >
                     Fresh Lavva recipes for the (unofficial) first weekend of summer ☀️👇
                 </mj-text>
             </mj-column>
