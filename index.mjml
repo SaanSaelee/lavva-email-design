@@ -8,9 +8,11 @@
         <mj-attributes>
             <mj-section padding="0" />
             <mj-image padding="0" />
+            <mj-text padding="0" />
+            <mj-button background-color="#006853" inner-padding="20px 15px" color="#fff" font-size="12px" font-weight="bold" border-radius="30px" />
             
-            <mj-class name="dark-green" background-color="#006853" />
-            <mj-class name="light-green" background-color="#E2FFF0" />
+            <mj-class name="dark-green" background-color="#006853" color="#006853" />
+            <mj-class name="light-green" background-color="#E2FFF0" color="#E2FFF0" />
         </mj-attributes>
 
     </mj-head>
@@ -23,9 +25,12 @@
         
         <mj-section mj-class="light-green">
             <mj-column>
-                <mj-text mj-class="dark-green" font-size="24px">
+                <mj-text mj-class="dark-green" font-size="24px" line-height="31.2px" padding="9px 18px">
                     Celebrate the holiday weekend with Lavva! Use code FRESH15  at checkout for 15% off your order.
                 </mj-text>
+                <mj-button padding="9px 18px">
+                    SHOP NOW
+                </mj-button>
             </mj-column>
         </mj-section>
     </mj-body>
