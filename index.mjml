@@ -215,7 +215,7 @@
         <mj-section mj-class="dark-green" padding="26px 0 27px">
             <mj-column padding="9px 18px">
                 <mj-text mj-class="light-green" font-size="10px" line-height="13px">
-                    No longer want to receive these emails? Unsubscribe.<br>
+                    No longer want to receive these emails? <a href="https://www.google.com" style="color: #18D594" >Unsubscribe.</a><br>
                     Lavva 174 Bogart Street Brooklyn, NY 11206
                 </mj-text>
             </mj-column>
