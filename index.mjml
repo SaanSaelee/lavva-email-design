@@ -1,0 +1,32 @@
+<mjml>
+    <mj-head>
+        <mj-title>Lavva</mj-title>
+        <mj-preview>
+            The only plant-based yogurt ever
+        </mj-preview>
+
+        <mj-attributes>
+            <mj-section padding="0" />
+            <mj-image padding="0" />
+            
+            <mj-class name="dark-green" background-color="#006853" />
+            <mj-class name="light-green" background-color="#E2FFF0" />
+        </mj-attributes>
+
+    </mj-head>
+    <mj-body background-color="#fff">
+        <mj-section>
+            <mj-column>
+                <mj-image src="https://i.ibb.co/5sws0ZW/hero.jpg" alt="hero" />
+            </mj-column>
+        </mj-section>
+        
+        <mj-section mj-class="light-green">
+            <mj-column>
+                <mj-text mj-class="dark-green" font-size="24px">
+                    Celebrate the holiday weekend with Lavva! Use code FRESH15  at checkout for 15% off your order.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
