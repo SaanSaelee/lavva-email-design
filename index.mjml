@@ -198,5 +198,28 @@
             </mj-column>
         </mj-section>
 
+        <!-- Footer -->
+        <mj-section mj-class="dark-green" padding="27px 9px">
+            <mj-column padding="0 9px">
+                <mj-image src="https://i.ibb.co/kyrjZBG/footer-logo.png" alt="footer-logo" border="0" width="75px" />
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="dark-green" padding="26px 9px 9px">
+            <mj-column padding="0 9px">
+                <mj-social icon-size="45px">
+                    <mj-social-element name="instagram" mj-class="dark-green"></mj-social-element>
+                    <mj-social-element name="facebook" mj-class="dark-green"></mj-social-element>
+                </mj-social>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="dark-green" padding="26px 0 27px">
+            <mj-column padding="9px 18px">
+                <mj-text mj-class="light-green" font-size="10px" line-height="13px">
+                    No longer want to receive these emails? Unsubscribe.<br>
+                    Lavva 174 Bogart Street Brooklyn, NY 11206
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
     </mj-body>
 </mjml>
