@@ -141,7 +141,7 @@
         <mj-section mj-class="tan">
             <mj-column>
                 <mj-text>
-                    <img src="https://i.ibb.co/XVXftnR/strawberry.png" alt="strawberry" border="0" >
+                    <img width="100%" src="https://i.ibb.co/XVXftnR/strawberry.png" alt="strawberry" border="0" >
                 </mj-text>
                 <mj-button>
                     SHOP
@@ -149,7 +149,7 @@
             </mj-column>
             <mj-column>
                 <mj-text>
-                    <img src="https://i.ibb.co/3m851nt/original.png" alt="original" border="0" >
+                    <img width="100%"  src="https://i.ibb.co/3m851nt/original.png" alt="original" border="0" >
                 </mj-text>
                 <mj-button>
                     SHOP
@@ -157,7 +157,7 @@
             </mj-column>
             <mj-column>
                 <mj-text>
-                    <img src="https://i.ibb.co/kBnSxhj/vailla.png" alt="vailla" border="0" >
+                    <img width="100%"  src="https://i.ibb.co/kBnSxhj/vailla.png" alt="vailla" border="0" >
                 </mj-text>
                 <mj-button>
                     SHOP
@@ -168,7 +168,7 @@
         <mj-section mj-class="tan">
             <mj-column>
                 <mj-text>
-                    <img src="https://i.ibb.co/Qm8QzLw/blueberry.png" alt="blueberry" border="0" >
+                    <img width="100%"  src="https://i.ibb.co/Qm8QzLw/blueberry.png" alt="blueberry" border="0" >
                 </mj-text>
                 <mj-button>
                     SHOP
@@ -176,18 +176,16 @@
             </mj-column>
             <mj-column>
                 <mj-text>
-                    <img src="https://i.ibb.co/rGgw58b/raspberry.png" alt="raspberry" border="0" >
+                    <img width="100%"  src="https://i.ibb.co/rGgw58b/raspberry.png" alt="raspberry" border="0" >
                 </mj-text>
-                <mj-image/>
                 <mj-button>
                     SHOP
                 </mj-button>
             </mj-column>
             <mj-column>
                 <mj-text>
-                    <img src="https://i.ibb.co/Ph4v6xz/mango.png" alt="mango" border="0" >
+                    <img width="100%"  src="https://i.ibb.co/Ph4v6xz/mango.png" alt="mango" border="0" >
                 </mj-text>
-                <mj-image/>
                 <mj-button>
                     SHOP
                 </mj-button>
