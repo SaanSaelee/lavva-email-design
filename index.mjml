@@ -1,9 +1,7 @@
 <mjml>
     <mj-head>
         <mj-title>Lavva</mj-title>
-        <mj-preview>
-            The only plant-based yogurt ever
-        </mj-preview>
+        <mj-preview>The only plant-based yogurt ever</mj-preview>
 
         <!-- MJML Attributes -->
         <mj-attributes>
@@ -15,13 +13,12 @@
             
             <mj-class name="dark-green" background-color="#006853" color="#006853" />
             <mj-class name="light-green" background-color="#E2FFF0" color="#E2FFF0" />
+            <mj-class name="tan" background-color="#F7F2ED" />
         </mj-attributes>
 
         <!-- Styles -->
         <mj-style>
-            .mg-12 {
-                margin-bottom: 12px !important;
-            }
+
         </mj-style>
 
     </mj-head>
@@ -37,7 +34,7 @@
                 <mj-text font-size="24px" line-height="31.2px" padding="9px 18px">
                     Celebrate the holiday weekend with Lavva! Use code FRESH15  at checkout for 15% off your order.
                 </mj-text>
-                <mj-button padding="9px 18px">
+                <mj-button href="https://www.google.com" padding="9px 18px">
                     SHOP NOW
                 </mj-button>
             </mj-column>
@@ -53,7 +50,7 @@
         <!-- Fresh recipes section -->
         <mj-section padding="9px 18px 0">
             <mj-column padding-bottom="14px">
-                <mj-text font-size="24px" >
+                <mj-text font-size="24px" line-height="31.2px" >
                     Fresh Lavva recipes for the (unofficial) first weekend of summer ☀️👇
                 </mj-text>
             </mj-column>
@@ -71,11 +68,11 @@
             </mj-column>
             <mj-column>
                 <mj-text padding="9px 18px" align="left" line-height="18.2px">
-                    <span class="mb-12" style="font-size: 24px; line-height: 26.4px;">Veggie Kabobs + Spicy Lavva Lime Sauce</span>
+                    <span class="mb-12" style="font-size: 24px; line-height: 26.4px; padding-bottom: 12px;">Veggie Kabobs + Spicy Lavva Lime Sauce</span>
                     <br />
                     The perfect skewer to enjoy for summer grilling, served with a quick-mix spicy lime Lavva sauce!
                 </mj-text>
-                <mj-button padding="9px 18px" align="left">
+                <mj-button href="https://www.google.com" padding="9px 18px" align="left">
                     SEE RECIPE
                 </mj-button>
             </mj-column>
@@ -96,7 +93,7 @@
                     <span class="mb-12" style="font-size: 24px; line-height: 26.4px;">Strawberry Ginger Lemonade Smoothie</span>
                     <br />
                     This refreshing and bright smoothie is anti-inflammatory, probiotic, antioxidant (and delicious).                </mj-text>
-                <mj-button padding="9px 18px" align="left">
+                <mj-button href="https://www.google.com" padding="9px 18px" align="left">
                     SEE RECIPE
                 </mj-button>
             </mj-column>
@@ -117,7 +114,7 @@
                     <span class="mb-12" style="font-size: 24px; line-height: 26.4px;">Vanilla Lavva Tropical Fruit Dip</span>
                     <br />
                     Lavva fruit dip = your picnic prep solved. We love this probiotic dip with fresh strawberries and melons.                </mj-text>
-                <mj-button padding="9px 18px" align="left">
+                <mj-button href="https://www.google.com" padding="9px 18px" align="left">
                     SEE RECIPE
                 </mj-button>
             </mj-column>
@@ -129,10 +126,80 @@
             </mj-column>
         </mj-section>
 
-        <!-- Wave divider -->
+        <!-- Yogurt selection -->
         <mj-section>
             <mj-column>
-                <mj-image src="https://i.ibb.co/TKDtjRj/wave-bg.png" alt="wave-bg" border="0">
+                <mj-image src="https://i.ibb.co/TKDtjRj/wave-bg.png" alt="wave-bg" border="0" />
+            </mj-column>
+        </mj-section>
+
+        <mj-section mj-class="tan" padding="9px 18px 0">
+            <mj-column>
+                <mj-text font-size="18px" font-weight="bold" line-height="23.4px" padding-bottom="14px">
+                    THE LAVVA YOU LOVE, DELIVERED.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- Top row -->
+        <mj-section mj-class="tan">
+            <mj-column>
+                <mj-text>
+                    <img src="https://i.ibb.co/XVXftnR/strawberry.png" alt="strawberry" border="0" >
+                </mj-text>
+                <mj-button>
+                    SHOP
+                </mj-button>
+            </mj-column>
+            <mj-column>
+                <mj-text>
+                    <img src="https://i.ibb.co/3m851nt/original.png" alt="original" border="0" >
+                </mj-text>
+                <mj-button>
+                    SHOP
+                </mj-button>
+            </mj-column>
+            <mj-column>
+                <mj-text>
+                    <img src="https://i.ibb.co/kBnSxhj/vailla.png" alt="vailla" border="0" >
+                </mj-text>
+                <mj-button>
+                    SHOP
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <!-- Bottom row -->
+        <mj-section mj-class="tan">
+            <mj-column>
+                <mj-text>
+                    <img src="https://i.ibb.co/Qm8QzLw/blueberry.png" alt="blueberry" border="0" >
+                </mj-text>
+                <mj-button>
+                    SHOP
+                </mj-button>
+            </mj-column>
+            <mj-column>
+                <mj-text>
+                    <img src="https://i.ibb.co/rGgw58b/raspberry.png" alt="raspberry" border="0" >
+                </mj-text>
+                <mj-image/>
+                <mj-button>
+                    SHOP
+                </mj-button>
+            </mj-column>
+            <mj-column>
+                <mj-text>
+                    <img src="https://i.ibb.co/Ph4v6xz/mango.png" alt="mango" border="0" >
+                </mj-text>
+                <mj-image/>
+                <mj-button>
+                    SHOP
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <!-- Spacer -->
+        <mj-section mj-class="tan">
+            <mj-column>
+                <mj-spacer height="20px" />
             </mj-column>
         </mj-section>
 
