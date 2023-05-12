@@ -18,7 +18,18 @@
 
         <!-- Styles -->
         <mj-style>
-
+            .btn-hover a:hover {
+                background-color: #E2FFF0 !important;
+                color: #006853 !important;
+            }
+            .btn-hover td:hover {
+                background-color: #E2FFF0 !important;
+                <!-- border: 1px solid #006853 !important; -->
+            }
+            .btn-hover p:hover {
+                background-color: #E2FFF0 !important;
+                color: #006853 !important;
+            }
         </mj-style>
 
     </mj-head>
@@ -34,7 +45,7 @@
                 <mj-text font-size="24px" line-height="31.2px" padding="9px 18px">
                     Celebrate the holiday weekend with Lavva! Use code <a href="https://www.google.com" style="color: #006853; font-weight: bold;">FRESH15</a>  at checkout for <a href="https://www.google.com" style="color: #006853; font-weight: bold;">15% off</a> your order.
                 </mj-text>
-                <mj-button href="https://www.google.com" padding="9px 18px">
+                <mj-button css-class="btn-hover" href="https://www.google.com" padding="9px 18px" border="2px solid #006853">
                     SHOP NOW
                 </mj-button>
             </mj-column>
@@ -71,7 +82,7 @@
                     <p class="mb-12" style="font-size: 24px; line-height: 26.4px; margin-bottom: 12px;">Veggie Kabobs + Spicy Lavva Lime Sauce</p>
                     The perfect skewer to enjoy for summer grilling, served with a quick-mix spicy lime Lavva sauce!
                 </mj-text>
-                <mj-button href="https://www.google.com" padding="9px 18px" align="left">
+                <mj-button css-class="btn-hover" href="https://www.google.com" padding="9px 18px" align="left"  border="2px solid #006853">
                     SEE RECIPE
                 </mj-button>
             </mj-column>
@@ -91,7 +102,7 @@
                 <mj-text padding="9px 18px" align="left" line-height="18.2px">
                     <p class="mb-12" style="font-size: 24px; line-height: 26.4px; margin-bottom: 12px;">Strawberry Ginger Lemonade Smoothie</p>
                     This refreshing and bright smoothie is anti-inflammatory, probiotic, antioxidant (and delicious).                </mj-text>
-                <mj-button href="https://www.google.com" padding="9px 18px" align="left">
+                <mj-button css-class="btn-hover" href="https://www.google.com" padding="9px 18px" align="left" border="2px solid #006853">
                     SEE RECIPE
                 </mj-button>
             </mj-column>
@@ -111,7 +122,7 @@
                 <mj-text padding="9px 18px" align="left" line-height="18.2px">
                     <p class="mb-12" style="font-size: 24px; line-height: 26.4px; margin-bottom: 12px;">Vanilla Lavva Tropical Fruit Dip</p>
                     Lavva fruit dip = your picnic prep solved. We love this probiotic dip with fresh strawberries and melons.                </mj-text>
-                <mj-button href="https://www.google.com" padding="9px 18px" align="left">
+                <mj-button css-class="btn-hover" href="https://www.google.com" padding="9px 18px" align="left" border="2px solid #006853">
                     SEE RECIPE
                 </mj-button>
             </mj-column>
@@ -143,7 +154,7 @@
                 <mj-text>
                     <img width="100%" src="https://i.ibb.co/XVXftnR/strawberry.png" alt="strawberry" border="0" >
                 </mj-text>
-                <mj-button>
+                <mj-button css-class="btn-hover" href="https://www.google.com" border="2px solid #006853">
                     SHOP
                 </mj-button>
             </mj-column>
@@ -151,7 +162,7 @@
                 <mj-text>
                     <img width="100%"  src="https://i.ibb.co/3m851nt/original.png" alt="original" border="0" >
                 </mj-text>
-                <mj-button>
+                <mj-button css-class="btn-hover" href="https://www.google.com" border="2px solid #006853">
                     SHOP
                 </mj-button>
             </mj-column>
@@ -159,7 +170,7 @@
                 <mj-text>
                     <img width="100%"  src="https://i.ibb.co/kBnSxhj/vailla.png" alt="vailla" border="0" >
                 </mj-text>
-                <mj-button>
+                <mj-button css-class="btn-hover" href="https://www.google.com" border="2px solid #006853">
                     SHOP
                 </mj-button>
             </mj-column>
@@ -170,7 +181,7 @@
                 <mj-text>
                     <img width="100%"  src="https://i.ibb.co/Qm8QzLw/blueberry.png" alt="blueberry" border="0" >
                 </mj-text>
-                <mj-button>
+                <mj-button css-class="btn-hover" href="https://www.google.com" border="2px solid #006853">
                     SHOP
                 </mj-button>
             </mj-column>
@@ -178,7 +189,7 @@
                 <mj-text>
                     <img width="100%"  src="https://i.ibb.co/rGgw58b/raspberry.png" alt="raspberry" border="0" >
                 </mj-text>
-                <mj-button>
+                <mj-button css-class="btn-hover" href="https://www.google.com" border="2px solid #006853">
                     SHOP
                 </mj-button>
             </mj-column>
@@ -186,7 +197,7 @@
                 <mj-text>
                     <img width="100%"  src="https://i.ibb.co/Ph4v6xz/mango.png" alt="mango" border="0" >
                 </mj-text>
-                <mj-button>
+                <mj-button css-class="btn-hover" href="https://www.google.com" border="2px solid #006853">
                     SHOP
                 </mj-button>
             </mj-column>
@@ -207,8 +218,8 @@
         <mj-section mj-class="dark-green" padding="26px 9px 9px">
             <mj-column padding="0 9px">
                 <mj-social icon-size="45px">
-                    <mj-social-element name="instagram" mj-class="dark-green"></mj-social-element>
-                    <mj-social-element name="facebook" mj-class="dark-green"></mj-social-element>
+                    <mj-social-element href="https//www.google.com" name="instagram" mj-class="dark-green"></mj-social-element>
+                    <mj-social-element href="https//www.google.com" name="facebook" mj-class="dark-green"></mj-social-element>
                 </mj-social>
             </mj-column>
         </mj-section>
