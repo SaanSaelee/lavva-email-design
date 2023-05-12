@@ -22,14 +22,17 @@
                 background-color: #E2FFF0 !important;
                 color: #006853 !important;
             }
-            .btn-hover td:hover {
-                background-color: #E2FFF0 !important;
-                <!-- border: 1px solid #006853 !important; -->
-            }
-            .btn-hover p:hover {
-                background-color: #E2FFF0 !important;
+            .btn-hover-yogurt a:hover {
+                background-color: #F7F2ED !important;
                 color: #006853 !important;
             }
+            .btn-hover td:hover {
+                background-color: #E2FFF0 !important;
+            }
+            .btn-hover-yogurt td:hover {
+                background-color: #F7F2ED !important;
+            }
+
         </mj-style>
 
     </mj-head>
@@ -43,7 +46,7 @@
         <mj-section mj-class="light-green">
             <mj-column>
                 <mj-text font-size="24px" line-height="31.2px" padding="9px 18px">
-                    Celebrate the holiday weekend with Lavva! Use code <a href="https://www.google.com" style="color: #006853; font-weight: bold;">FRESH15</a>  at checkout for <a href="https://www.google.com" style="color: #006853; font-weight: bold;">15% off</a> your order.
+                    Celebrate the holiday weekend with Lavva! Use code <a href="https://www.google.com" style="color: #006853; font-weight: bold; text-decoration: none;">FRESH15</a>  at checkout for <a href="https://www.google.com" style="color: #006853; font-weight: bold; text-decoration: none;">15% off</a> your order.
                 </mj-text>
                 <mj-button css-class="btn-hover" href="https://www.google.com" padding="9px 18px" border="2px solid #006853">
                     SHOP NOW
@@ -154,7 +157,7 @@
                 <mj-text>
                     <img width="100%" src="https://i.ibb.co/XVXftnR/strawberry.png" alt="strawberry" border="0" >
                 </mj-text>
-                <mj-button css-class="btn-hover" href="https://www.google.com" border="2px solid #006853">
+                <mj-button css-class="btn-hover-yogurt" href="https://www.google.com" border="2px solid #006853">
                     SHOP
                 </mj-button>
             </mj-column>
@@ -162,7 +165,7 @@
                 <mj-text>
                     <img width="100%"  src="https://i.ibb.co/3m851nt/original.png" alt="original" border="0" >
                 </mj-text>
-                <mj-button css-class="btn-hover" href="https://www.google.com" border="2px solid #006853">
+                <mj-button css-class="btn-hover-yogurt" href="https://www.google.com" border="2px solid #006853">
                     SHOP
                 </mj-button>
             </mj-column>
@@ -170,7 +173,7 @@
                 <mj-text>
                     <img width="100%"  src="https://i.ibb.co/kBnSxhj/vailla.png" alt="vailla" border="0" >
                 </mj-text>
-                <mj-button css-class="btn-hover" href="https://www.google.com" border="2px solid #006853">
+                <mj-button css-class="btn-hover-yogurt" href="https://www.google.com" border="2px solid #006853">
                     SHOP
                 </mj-button>
             </mj-column>
@@ -181,7 +184,7 @@
                 <mj-text>
                     <img width="100%"  src="https://i.ibb.co/Qm8QzLw/blueberry.png" alt="blueberry" border="0" >
                 </mj-text>
-                <mj-button css-class="btn-hover" href="https://www.google.com" border="2px solid #006853">
+                <mj-button css-class="btn-hover-yogurt" href="https://www.google.com" border="2px solid #006853">
                     SHOP
                 </mj-button>
             </mj-column>
@@ -189,7 +192,7 @@
                 <mj-text>
                     <img width="100%"  src="https://i.ibb.co/rGgw58b/raspberry.png" alt="raspberry" border="0" >
                 </mj-text>
-                <mj-button css-class="btn-hover" href="https://www.google.com" border="2px solid #006853">
+                <mj-button css-class="btn-hover-yogurt" href="https://www.google.com" border="2px solid #006853">
                     SHOP
                 </mj-button>
             </mj-column>
@@ -197,7 +200,7 @@
                 <mj-text>
                     <img width="100%"  src="https://i.ibb.co/Ph4v6xz/mango.png" alt="mango" border="0" >
                 </mj-text>
-                <mj-button css-class="btn-hover" href="https://www.google.com" border="2px solid #006853">
+                <mj-button css-class="btn-hover-yogurt" href="https://www.google.com" border="2px solid #006853">
                     SHOP
                 </mj-button>
             </mj-column>
